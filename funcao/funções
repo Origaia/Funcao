@@ -1,0 +1,20 @@
+function olaMundo(){
+    alert("Olá Mundo");
+    /*Sofre hosting podendo ser usada a qualquer momento*/
+}
+function Soma(num1, num2){
+    /*Possui parâmetros*/
+    let res
+    res=num1 + num2
+}
+let anonima = function (){
+    /*Pode ser usada apenas depois de sua declaração*/
+}
+function leValor(){
+    let a=5
+    let b=10
+    function soma(){
+        console.log(a+b)
+    }
+    soma ()
+}
